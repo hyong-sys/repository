@@ -24,8 +24,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		//查看盘
-		String roots = Arrays.toString(File.listRoots());
+		//查看ss盘
+		Sting roots = Arrays.toString(File.listRoots());
 		//查看是否有要查找的盘
 		if (roots.contains("E:\\")) {
 			System.out.println("有E盘，正在执行遍历操作");
@@ -60,7 +60,3 @@ public class DemoApplication {
 
 
 	}
-
-
-
-
