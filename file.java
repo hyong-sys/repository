@@ -38,7 +38,7 @@ public class DemoApplication {
 			//返回目录下所有文件和目录的绝对路径
 			File[] files = file.listFiles();
 			if (files==null ) {
-				System.out.println("文件夹下无目录（空）");
+				System.out.println("文件夹下无目录（空）!");
 			} else {
 				for (File file1 : files) {
 					if (file1.isDirectory()) {
