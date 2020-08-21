@@ -22,6 +22,7 @@ import java.util.Map;
 public class DemoApplication {
 
 	public static void main(String[] args) {
+		//haoyong UPDATE
 		SpringApplication.run(DemoApplication.class, args);
 		//获取json的网址
 		String url = "http://123.56.191.196:8080/a/a/d/list_slide_1_0.json";
