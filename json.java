@@ -25,7 +25,7 @@ public class DemoApplication {
 		//haoyong UPDATE
 		SpringApplication.run(DemoApplication.class, args);
 		//获取json的网址
-		String url = "http://123.56.191.196:8080/a/a/d/list_slide_1_0.json";
+		String url = "http://123.12.191.196:8080/a/a/d/list_slide_1_0.json";
 		//调用方法，返回string类型的json并输出
 		String json = loadJson(url);
 		System.out.println(json);
