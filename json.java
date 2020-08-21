@@ -52,7 +52,7 @@ public class DemoApplication {
 		// 打开连接
 		URLConnection con = url.openConnection();
 		//设置请求超时为5s
-		con.setConnectTimeout(5*1000);
+		con.setConnectTimeout(4*1000);
 		// 输入流
 		InputStream is = con.getInputStream();
 
