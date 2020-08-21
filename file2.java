@@ -24,7 +24,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		//查看盘
+		//查看盘 upupupupupup
 		String roots = Arrays.toString(File.listRoots());
 		//查看是否有要查找的盘
 		if (roots.contains("E:\\")) {
