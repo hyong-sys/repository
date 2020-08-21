@@ -56,7 +56,7 @@ public class DemoApplication {
 		// 输入流
 		InputStream is = con.getInputStream();
 
-		// 1K的数据缓冲
+		// 1K的 数 据 缓 冲
 		byte[] bs = new byte[1024];
 		// 读取到的数据长度
 		int len;
